@@ -571,7 +571,7 @@ cat hints.ep.gff intron.hints.gff > hints.gff
 #Another server
 augustus --species=tomato --UTR=on --extrinsicCfgFile=/usr/local/bioinformatic/miniconda2/bin/augustus/config/extrinsic/extrinsic.M.RM.E.W.cfg --alternatives-from-evidence=true --hintsfile=hints.gff --allow_hinted_splicesites=atac cascadePrimary.fasta --codingseq=on --outfile=predicted.augustus.S.g.gff --progress=true --genemodel=complete
 
-thalescherubino:patch-1
+novo comando para encontrar regioes repetitivas 
 
 
 
